@@ -2,6 +2,8 @@
 
 fft.py is a program to show the live Fast Fourier Transform of a signal which is taken from a Siglent oscilloscope. The program will show the fft continuously with up to 55 frames per second. Speed is mainly limited by the speed at whoich the oscilloscope can spew out waveforms to the computer.
 
+A screen recording showing its output on the FM radio frequency band is show in the file fft.mp4 in the folder resources/.
+
 
 ## communication
 
@@ -18,6 +20,7 @@ Frequency input on the commandline can be done in human legible form, like 97.5M
 The fft algorithm can only calculate frequency response up to the Nyquist frequency. The Nyquist frequency is half the sampling frequency of the oscilloscope.
 
 When the Nyquist frequency is not high enough to show the requested freqency range, this is recognized by the program and the maximum frequency of the fft algorithm will be shown in red in the titlebar of the plot.
+
 
 Entering `python3 fft.py --help` will show the following information:
 
