@@ -4,6 +4,8 @@ fft.py is a program to show the live Fast Fourier Transform of a signal which is
 
 A screen recording showing its output on the FM radio frequency band is show in the file fft.mp4 in the folder resources/.
 
+This program has been tested on a Siglent SDS1202X-E oscilloscope, but is supposed to work on any SDS1000 and SDS2000 series oscilloscopes from Siglent. This is determined by the pydatacq package which is imported by fft.py.
+
 
 ## communication
 
